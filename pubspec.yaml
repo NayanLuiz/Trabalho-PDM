@@ -1,0 +1,66 @@
+name: controle_financeiro
+description: "App de Gestao Financeira Pessoal e Metas (Foco em Investimentos e Patrimonio) - PDM 2026.2"
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # Injecao de Dependencias e Estado (MVVM)
+  provider: ^6.1.2
+
+  # Firebase Suite
+  firebase_core: ^3.10.1
+  firebase_auth: ^5.4.1
+  google_sign_in: ^6.2.2
+  cloud_firestore: ^5.6.2
+  firebase_storage: ^12.4.1
+
+  # Persistencia Local (Offline-First)
+  sqflite: ^2.4.1
+  sqflite_common_ffi_web: ^0.4.3+4
+  path: ^1.9.0
+  shared_preferences: ^2.3.5
+
+  # Seguranca e Biometria
+  local_auth: ^2.3.0
+  flutter_secure_storage: ^9.2.4
+
+  # Visualizacao de Dados e Graficos
+  fl_chart: ^0.70.2
+
+  # Notificacoes Locais Inteligentes
+  flutter_local_notifications: ^18.0.1
+  timezone: ^0.10.0
+
+  # Anexo de Comprovantes (Foto/PDF)
+  image_picker: ^1.1.2
+  file_picker: ^8.1.7
+
+  # Exportacao de Relatorios
+  pdf: ^3.11.2
+  printing: ^5.13.3
+  csv: ^6.0.0
+  share_plus: ^10.1.4
+
+  # Utilitarios e Roteamento
+  go_router: ^14.8.0
+  intl: ^0.20.2
+  uuid: ^4.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  mocktail: ^1.0.4
+
+flutter:
+  uses-material-design: true
+
